@@ -26,6 +26,18 @@ class Heroi {
         default:
           ataque = 'Ataque desconhecido';
       }
+      console.log(`O ${this.tipo} atacou usando ${ataque}`);
     }
 
 }
+
+
+//OBJETOS DA CLASSE
+const heroi1 = new Heroi('Gandalf', 300, 'mago');
+heroi1.atacar();
+const heroi2 = new Heroi('Aragorn', 87, 'guerreiro');
+heroi2.atacar();
+const heroi3 = new Heroi('Liu Kang', 25, 'monge');
+heroi3.atacar();
+const heroi4 = new Heroi('Naruto', 17, 'ninja');
+heroi4.atacar();
